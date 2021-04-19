@@ -14,7 +14,8 @@
     "lint": "eslint --ext ts ./src",
     "clean": "gatsby clean && rm -rf public",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "codegen": "graphql-codegen --config codegen.yml"
+    "codegen": "graphql-codegen --config codegen.yml",
+    "preload-fonts": "gatsby-preload-fonts"
   },
   "lint-staged": {
     "*.ts": "eslint"
@@ -70,6 +71,8 @@
     "eslint-config-standard": "^16.0.2",
     "eslint-loader": "^4.0.2",
     "eslint-plugin-import": "^2.22.1",
+    "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-preload-fonts": "^2.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-promise": "^4.3.1",
